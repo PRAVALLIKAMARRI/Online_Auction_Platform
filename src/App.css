@@ -1,0 +1,167 @@
+.content
+{
+  text-align: center;
+   /*background-color: lightblue; */
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eef2f3;
+  height: 3000px;
+  /*margin: 0;*/
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  max-width: 2000px;
+  max-height:2000px;
+  margin: 10px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+header {
+background: linear-gradient(90deg, #06a357 0%, #0ad859 100%);
+
+
+color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #12d722;
+  padding-bottom: 5px;
+}
+
+.form-container {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #21c882;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #11cb58;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background: #11cb43;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+nav {
+  margin: 15px 0;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: hsl(195, 8%, 90%);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+}
+
+button:hover {
+  background: hsl(160, 8%, 92%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+li:hover {
+  transform: translateY(-2px);
+}
+
+li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.message {
+  color: #d9534f; /* Bootstrap danger color */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .app {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+  
+
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+}
+
